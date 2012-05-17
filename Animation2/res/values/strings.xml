@@ -2,6 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, Animation2Activity!</string>
+    <string name="desc">desc</string>
     <string name="app_name">Animation2</string>
 
 </resources>
