@@ -18,6 +18,7 @@ public class Animation2Activity extends Activity {
 	ImageView animImageStickman;
 	AnimationDrawable animDrawableStickman;	
 
+
 	// this is the lister that will be stuck onto animImageStickman..
 	OnClickListener OnClickStickman;
 
@@ -69,7 +70,10 @@ public class Animation2Activity extends Activity {
 			// we set a listener onto this image and override the onclick behaviour..
 			animImageStickman.setOnClickListener(new OnClickListener() {
 				@Override
-				public void onClick(View v) {					
+				public void onClick(View v) {	
+					animImageStickman.setImageResource(R.anim.stickman2);
+					animDrawableStickman = (AnimationDrawable) animImageStickman.getDrawable();
+					
 					runAnimationViaPost();		
 				}
 			}
