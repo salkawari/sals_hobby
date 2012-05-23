@@ -5,28 +5,47 @@
 
   <item
     android:drawable="@drawable/pull_up_1"
-    android:duration="200"
+    android:duration="150"
   /> 
   <item
     android:drawable="@drawable/pull_up_2"
-    android:duration="200"
+    android:duration="150"
   />
     <item
     android:drawable="@drawable/pull_up_3"
-    android:duration="200"
+    android:duration="150"
   />
 
   <item
     android:drawable="@drawable/pull_up_4"
-    android:duration="200"
+    android:duration="150"
   /> 
   <item
     android:drawable="@drawable/pull_up_5"
-    android:duration="200"
+    android:duration="150"
   />
     <item
     android:drawable="@drawable/pull_up_6"
-    android:duration="200"
+    android:duration="150"
   />
- 
+  <item
+    android:drawable="@drawable/pull_up_5"
+    android:duration="150"
+  />
+     <item
+    android:drawable="@drawable/pull_up_4"
+    android:duration="150"
+  />
+  <item
+    android:drawable="@drawable/pull_up_3"
+    android:duration="150"
+  />     
+  <item
+    android:drawable="@drawable/pull_up_2"
+    android:duration="150"
+  />
+  <item
+    android:drawable="@drawable/pull_up_1"
+    android:duration="150"
+  />
 </animation-list>

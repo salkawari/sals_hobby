@@ -1,5 +1,5 @@
 (copy the files into the subdir. )
-git add HelloGridView
+git add Animation2
 git commit -a
 (add a message with i "somethign" :x)
 git push

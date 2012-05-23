@@ -3,6 +3,5 @@
 
     <string name="hello">Hello World, Animation2Activity!</string>
     <string name="desc">desc</string>
-    <string name="app_name">Animation2</string>
-    <string name="invisible">4</string>
+    <string name="app_name">Animation_prototype</string>
 </resources>

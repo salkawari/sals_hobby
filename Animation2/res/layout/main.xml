@@ -10,6 +10,19 @@
     android:id="@+id/stickman" 
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:src="@anim/stickman_nopull" />
-</LinearLayout>
-  
+    android:src="@anim/stickman_wave" />
+<TextView
+    android:id="@+id/report_view"
+    android:text="1 + 1 = 2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0"
+    android:gravity="center"
+    android:padding="10dp"
+    style="@android:style/TextAppearance.Large"
+    android:textStyle="bold"
+    android:shadowColor="#BB000000"
+    android:shadowRadius="2.75"
+    android:background="@android:drawable/title_bar"
+    />  
+ </LinearLayout>
