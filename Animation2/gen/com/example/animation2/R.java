@@ -9,8 +9,9 @@ package com.example.animation2;
 
 public final class R {
     public static final class anim {
-        public static final int stickman=0x7f040000;
-        public static final int stickman2=0x7f040001;
+        public static final int stickman_nopull=0x7f040000;
+        public static final int stickman_pulldown=0x7f040001;
+        public static final int stickman_pullup=0x7f040002;
     }
     public static final class attr {
     }
@@ -26,11 +27,23 @@ public final class R {
         public static final int mtlogo08=0x7f020008;
         public static final int mtlogo09=0x7f020009;
         public static final int mtlogo10=0x7f02000a;
-        public static final int slide1=0x7f02000b;
-        public static final int slide2=0x7f02000c;
-        public static final int slide3=0x7f02000d;
-        public static final int slide4=0x7f02000e;
-        public static final int slide5=0x7f02000f;
+        public static final int pull_down_1=0x7f02000b;
+        public static final int pull_down_2=0x7f02000c;
+        public static final int pull_down_3=0x7f02000d;
+        public static final int pull_down_4=0x7f02000e;
+        public static final int pull_down_5=0x7f02000f;
+        public static final int pull_down_6=0x7f020010;
+        public static final int pull_up_1=0x7f020011;
+        public static final int pull_up_2=0x7f020012;
+        public static final int pull_up_3=0x7f020013;
+        public static final int pull_up_4=0x7f020014;
+        public static final int pull_up_5=0x7f020015;
+        public static final int pull_up_6=0x7f020016;
+        public static final int slide1=0x7f020017;
+        public static final int slide2=0x7f020018;
+        public static final int slide3=0x7f020019;
+        public static final int slide4=0x7f02001a;
+        public static final int slide5=0x7f02001b;
     }
     public static final class id {
         public static final int stickman=0x7f060000;

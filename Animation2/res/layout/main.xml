@@ -10,6 +10,6 @@
     android:id="@+id/stickman" 
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:src="@anim/stickman" />
+    android:src="@anim/stickman_nopull" />
 </LinearLayout>
   
