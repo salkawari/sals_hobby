@@ -95,6 +95,9 @@ public class Animation2Activity extends Activity {
 						xDiff = Math.abs(xEndPos - xStartPos);
 						yDiff = Math.abs(yEndPos - yStartPos);
 						if (yDiff > xDiff) {
+							
+							//we turn off the x flags as y won!
+							isRight = false; isLeft = false;
 							if (yStartPos > yEndPos) {
 								isDownward = false; isUpward = true;
 							}
@@ -103,6 +106,8 @@ public class Animation2Activity extends Activity {
 							}	
 						}
 						else  {
+							
+							isDownward = false; isUpward = false;
 							if (xStartPos > xEndPos) {
 								isRight= false; isLeft = true;
 							}

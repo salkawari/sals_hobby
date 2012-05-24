@@ -1,3 +1,5 @@
+This application plays different animations based on what input the user gives via touches.
+
 (copy the files into the subdir. )
 git add Animation2
 git commit -a
